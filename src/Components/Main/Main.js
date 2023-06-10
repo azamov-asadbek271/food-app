@@ -15,11 +15,11 @@ function Main() {
         </h1>
         <div className="blyud-price">
           <div className="img">
-            <img src={imgpizza} alt="" />
+            <img className="pizza" src={imgpizza} alt="" />
             <div className="blyud-xamburger">
-              <img src={imghamburger} alt="" />
-              <img src={imghamburger} alt="" />
-              <img src={imghamburger} alt="" />
+              <img className="hamburger" src={imghamburger} alt="" />
+              <img className="hamburger" src={imghamburger} alt="" />
+              <img className="hamburger" src={imghamburger} alt="" />
             </div>
           </div>
           <div className="blyud-text">
@@ -30,7 +30,7 @@ function Main() {
         </div>
       </div>
 
-      
+
     </div>
   );
 }
