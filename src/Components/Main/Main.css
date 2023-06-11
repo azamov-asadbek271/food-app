@@ -1,0 +1,55 @@
+/* Behruzbek 1-qism (Blyud) */
+.blyud{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    margin: 2% auto;
+}
+.blyud-price{
+    display: flex;
+    margin-top: 7%;
+    gap: 5%;
+}
+.blyud-price .img{
+    display: flex;
+    width: 50%;
+}
+
+.blyud-xamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6%;
+    margin-left: 5%;
+}
+.blyud-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 50%;
+}
+.blyud h1{
+    font-size: 60px;
+}
+.blyud h1 span{
+    color: #D67E34;
+}
+
+@media (max-width: 500px) {
+    .blyud-price{
+        flex-direction: column;
+    }
+    .blyud{
+        text-align: center;
+    }
+    .blyud-price .img{
+        margin: 0 10%;
+    }
+    .blyud-price .img .pizza{
+        width: 50%;
+        object-fit: cover;
+    }
+}
