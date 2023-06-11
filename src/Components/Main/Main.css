@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
 /* Behruzbek 1-qism (Blyud) */
 .blyud{
     width: 80%;
@@ -5,6 +7,7 @@
     text-align: center;
     padding-top: 2%;
     margin: 2% auto;
+    padding-bottom: 2%;
 }
 .blyud-price{
     display: flex;
@@ -37,19 +40,282 @@
 .blyud h1 span{
     color: #D67E34;
 }
+/* Blyud media */
+
+
+/* Menu */
+.main-menu{
+    width: 100%;
+    height: 130vh;
+    background-image: url(../IMG/hamburger-bg.png);
+}
+.main-menu .menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu h1{
+    font-style: normal;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: white;
+    padding: 6% 0;
+}
+.menu .burger-blok{
+    display: flex;
+    width: 100%;
+    height: 73vh;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+.burger-blok .burger-box{
+    width: 31%;
+    height: 100%;
+    padding: 6% 5% 7% 5%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    transition: all .7s;
+}
+.burger-box:hover{
+    scale: 1.1;
+}
+.burger-box .img {
+    position: relative;
+}
+.burger-box .img .price{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: #D67E34;
+    border-radius: 50%;
+    border: 7px solid white;
+    right: 0px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.burger-box .img img{
+    width: 100%;
+}
+.burger-box .img .price p{
+  font-family: 'Cookie', handwriting;
+  font-size:25px;
+}
+.burger-box .text{
+    text-align: center;
+}
+.burger-box .text h3{
+    font-family: 'Tinos' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 160%;
+    line-height: 30px;
+}
+.burger-box .text p{
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-size: 100%;
+    line-height: 22px;
+    text-align: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto ;
+    padding: 7% 0;
+}
+.burger-box .text button{
+    width: 100%;
+    padding: 6% 0;
+    margin-bottom: 5%;
+    background-color: #D67E34;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.burger-box .text button:hover{
+    background: #a15e27;
+}
+
+/* comment */
+.comment{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 60vh;
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.comment img {
+    width: 10%;
+}
+.main-comment{
+    background-color: #E5E5E5;
+}
+.comment .p1{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    font-family: 'Open Sans' ;
+  font-family: 'Open Sans', sans-serif;
+}
+.comment .p2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.comment .p3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.btngr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.btngr button{
+    width: 10px ;
+    height: 10px;
+    border: none;
+    transition: .4s;
+    border-radius: 50%;
+    background-color: grey;
+}
+.btngr button:focus{
+    border: 3px solid #D67E34;
+}
+
+.gallery{
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+.gallery h1{
+    padding: 3% 0;
+    font-size: 50px;
+}
+.gallery h1 span{
+    color: #D67E34 !important;
+}
+.gallery .main-img{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery .main-img .red1{
+    background-color: red;
+    width: 30px;
+    height: 100px;
+}
+.gallery .main-img .soup-gr{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+.soup-gr .soup1{
+    display: flex;
+    gap: 30px;
+
+}
+
+.chef{
+    text-align: center;
+    padding: 5% 0;
+}
+.chef img:nth-child(2){
+    margin: 0 2%;
+}
+.chef h1 {
+    font-size: 50px;
+    padding: 3% 0 5% 0;
+}
+.chef h1 span {
+    color: #D67E34;
+}
+
+.footer img{
+    width: 100%;
+
+}
+.soup1 .img1{
+    display: flex;
+    gap: 30px;
+}
+
 
 @media (max-width: 500px) {
-    .blyud-price{
+    .blyud-price {
         flex-direction: column;
     }
-    .blyud{
-        text-align: center;
+
+    .blyud .img {
+        width: 100%;
     }
-    .blyud-price .img{
-        margin: 0 10%;
+
+    .blyud .img .pizza {
+        width: 70%;
     }
-    .blyud-price .img .pizza{
-        width: 50%;
-        object-fit: cover;
+
+    .blyud-xamburger .hamburger {
+        width: 100%;
     }
+
+    .blyud-text {
+        text-align: center !important;
+    }
+
+    .blyud .blyud-text {
+        width: 100%;
+        font-size: 22px;
+        margin: 40px 0;
+    }
+
+    .burger-blok{
+        flex-direction: column !important;
+        gap: 15px;
+    }
+    .burger-box {
+        width: 80% !important;
+        margin: auto;
+        height: 100% !important;
+    }
+    .burger-box img {
+        width: 80% !important;
+        margin-left: 14px !important;
+    }
+    .main-menu {
+        height: 300vh;
+    }
+    .comment .p1{
+        font-size: 15px;
+    }
+    .main-comment{
+        padding: 30px 0;
+    }
+    .soup1{
+        flex-direction: column !important;
+    }
+    .soup1 .img1 img{
+        width: 46%;
+    } 
+
 }
