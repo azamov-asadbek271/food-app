@@ -5,6 +5,7 @@
     text-align: center;
     padding-top: 2%;
     margin: 2% auto;
+    padding-bottom: 2%;
 }
 .blyud-price{
     display: flex;
@@ -37,19 +38,118 @@
 .blyud h1 span{
     color: #D67E34;
 }
-
+/* Blyud media */
 @media (max-width: 500px) {
     .blyud-price{
         flex-direction: column;
     }
-    .blyud{
-        text-align: center;
+    .blyud .img {
+        width: 100%;
+    }    
+    .blyud .img .pizza{
+        width: 70%;
     }
-    .blyud-price .img{
-        margin: 0 10%;
+    .blyud-xamburger .hamburger{
+        width: 100%;
     }
-    .blyud-price .img .pizza{
-        width: 50%;
-        object-fit: cover;
+    .blyud-text {
+        text-align: center !important;
     }
+    .blyud .blyud-text{
+        width: 100%;
+        font-size: 22px;
+        margin: 40px 0;
+    }
+
+}
+
+/* Menu */
+.main-menu{
+    width: 100%;
+    height: 130vh;
+    background-image: url(../IMG/hamburger-bg.png);
+}
+.main-menu .menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu h1{
+    font-style: normal;
+    font-family: 'Tinos' , sans-serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+    color: white;
+    padding: 6% 0;
+}
+.menu .burger-blok{
+    display: flex;
+    width: 100%;
+    height: 73vh;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+.burger-blok .burger-box{
+    border: 2px solid red;
+    width: 31%;
+    padding: 6% 5% 7% 5%;
+    background: #FFFFFF;
+}
+.burger-box .img {
+    position: relative;
+}
+.burger-box .img .price{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #D67E34;
+    border-radius: 50%;
+    border: 7px solid white;
+    right: 0px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.burger-box .img img{
+    width: 100%;
+}
+.burger-box .img .price p{
+  font-family: 'Cookie', handwriting;
+  font-size:25px;
+}
+.burger-box .text{
+    text-align: center;
+}
+.burger-box .text h3{
+    font-family: 'Tinos' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+.burger-box .text p{
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 7% 0;
+}
+.burger-box .text button{
+    width: 220px;
+    height: 50px;
+    background-color: #D67E34;
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
 }
