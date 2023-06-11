@@ -203,6 +203,56 @@
     border: 3px solid #D67E34;
 }
 
+.gallery{
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+}
+.gallery h1{
+    padding: 3% 0;
+    font-size: 50px;
+}
+.gallery h1 span{
+    color: #D67E34 !important;
+}
+.gallery .main-img{
+    display: flex;
+    justify-content: space-between;
+}
+.gallery .main-img .red1{
+    background-color: red;
+    width: 30px;
+    height: 100px;
+}
+.gallery .main-img .soup-gr{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+.soup-gr .soup1{
+    display: flex;
+    gap: 30px;
+
+}
+
+.chef{
+    text-align: center;
+    padding: 5% 0;
+}
+.chef h1 {
+    font-size: 50px;
+    padding: 3% 0 5% 0;
+}
+.chef h1 span {
+    color: #D67E34;
+}
+
+.footer img{
+    width: 100%;
+
+}
 
 
 @media (max-width: 500px) {

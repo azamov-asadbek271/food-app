@@ -4,6 +4,13 @@ import imgpizza from "../IMG/pizza.png";
 import imghamburger from "../IMG/hamburger.png";
 import maskgr from "../IMG/Mask Group.png";
 import man from "../IMG/man.png";
+import stakan from "../IMG/stakan.png"
+import coffe from "../IMG/coffe.png"
+import soup1 from "../IMG/soup.png"
+import cheff1 from "../IMG/cheff1.png"
+import cheff2 from "../IMG/cheff2.png"
+import cheff3 from "../IMG/cheff3.png"
+import footbg from "../IMG/footer bg.png"
 
 function Main() {
   return (
@@ -99,6 +106,44 @@ function Main() {
             <button className="btn"></button>
           </div>
         </div>
+      </div>
+
+      {/* our gallery */}
+      <div className="gallery">
+        <h1>
+          Галерея <span> Блюд</span>
+        </h1>
+        <div className="main-img">
+          <div className="red1"></div>
+          <div className="soup-gr">
+            <div className="soup1">
+              <img src={stakan} alt="" />
+              <img src={soup1} alt="" />
+              <img src={coffe} alt="" />
+            </div>
+            <div className="soup1">
+              <img src={coffe} alt="" />
+              <img src={soup1} alt="" />
+              <img src={stakan} alt="" />
+            </div>
+          </div>
+          <div className="red1"></div>
+        </div>
+      </div>
+
+      {/* chef */}
+      <div className="chef">
+        <h1>
+          Наши <span>Повара</span>
+        </h1>
+        <div className="img-blok">
+          <img src={cheff1} alt="" />
+          <img src={cheff2} alt="" />
+          <img src={cheff3} alt="" />
+        </div>
+      </div>
+      <div className="footer">
+        <img src={footbg} alt="" />
       </div>
     </div>
   );
