@@ -241,6 +241,9 @@
     text-align: center;
     padding: 5% 0;
 }
+.chef img:nth-child(2){
+    margin: 0 2%;
+}
 .chef h1 {
     font-size: 50px;
     padding: 3% 0 5% 0;
@@ -252,6 +255,10 @@
 .footer img{
     width: 100%;
 
+}
+.soup1 .img1{
+    display: flex;
+    gap: 30px;
 }
 
 
@@ -291,8 +298,24 @@
         margin: auto;
         height: 100% !important;
     }
-    .main-menu {
-        height: 340vh;
+    .burger-box img {
+        width: 80% !important;
+        margin-left: 14px !important;
     }
+    .main-menu {
+        height: 300vh;
+    }
+    .comment .p1{
+        font-size: 15px;
+    }
+    .main-comment{
+        padding: 30px 0;
+    }
+    .soup1{
+        flex-direction: column !important;
+    }
+    .soup1 .img1 img{
+        width: 46%;
+    } 
 
 }

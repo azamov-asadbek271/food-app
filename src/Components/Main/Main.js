@@ -118,12 +118,16 @@ function Main() {
           <div className="soup-gr">
             <div className="soup1">
               <img src={stakan} alt="" />
-              <img src={soup1} alt="" />
-              <img src={coffe} alt="" />
+              <div className="img1">
+                <img src={soup1} alt="" />
+                <img src={coffe} alt="" />
+              </div>
             </div>
             <div className="soup1">
-              <img src={coffe} alt="" />
-              <img src={soup1} alt="" />
+              <div className="img1">
+                <img src={coffe} alt="" />
+                <img src={soup1} alt="" />
+              </div>
               <img src={stakan} alt="" />
             </div>
           </div>
