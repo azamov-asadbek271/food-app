@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+
+header {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/hero\ image.png);
+     background-size: cover;  
+
+
+}
+
+
+.navbar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px  ;
+}
+.navbar-link  {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+   border-right: 1px solid #fff; 
+   align-items: center;
+   width: 26%;
+   justify-content: center;
+   height: 90%;
+   margin-left: 280px;
+                                                
+}
+.navbar-link a {
+   color: #fff;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   
+
+}
+.navbar-order {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 35%;
+    color: #fff;
+
+}
+.phone {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #fff;
+}
+.phone a {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.navbar-phone-number {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    
+}
+.btn {
+    width: 35%;
+    height: 70%;
+    border: none;
+    background: #FF7400;
+    color: aliceblue;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.btn:hover {
+    background: #574536;
+}
+.navbar-order-paragrph {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
