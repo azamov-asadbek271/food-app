@@ -1,4 +1,104 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+/* asadbek */
+.top-part {
+    width: 100%;
+    min-height: 80vh;
+}
+.top-part-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -130px;
+    width: 80%;
+    margin-left: 150px;
+}
+.top-part-boxes-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    background: #FFFFFF;  
+    justify-content: center;
+    padding: 10px;
+}
+.top-part-boxes-box-two {
+    width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 350px;
+        background: #FFFFFF;
+        justify-content: center;
+        padding-bottom: 45px;
+}
+.top-part-maks {
+      width: 30%;
+}
+.top-part-atmosfera {
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 28px;
+}
+.top-part-parag {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 27px;
+    color: #656363;
+}
+span {
+    color: #BC9060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Behruzbek 1-qism (Blyud) */
 .blyud{

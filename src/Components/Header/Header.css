@@ -3,20 +3,20 @@
 
 header {
     width: 100%;
-    height: 100%;
+    height: 129vh;
     background-image: url(../IMG/hero\ image.png);
      background-size: cover;  
-
-
+     box-shadow: 0 400px 22px -150px #E5E5E5 ;
 }
-
-
+.navbar-logo {
+    margin-left: 40px;
+}
 .navbar {
     width: 100%;
     height: 20%;
     display: flex;
     justify-content: space-between;
-    padding: 40px 50px  ;
+    padding: 40px 50px ;
 }
 .navbar-link  {
     color: #fff;
@@ -66,8 +66,8 @@ header {
     
 }
 .btn {
-    width: 35%;
-    height: 70%;
+    width: 40%;
+    height: 60%;
     border: none;
     background: #FF7400;
     color: aliceblue;
@@ -85,4 +85,60 @@ header {
 .navbar-order-paragrph {
     font-family: 'Open Sans';
     font-weight: 400;
+}
+/* Header Navbar tugadi */
+.header-left-box {
+    color: #fff;
+    margin-top: 180px;
+    margin-left: 160px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome {
+    color: #D67E35;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 48px;
+}
+.kitchen {
+    color: #D67E35;
+    font-family: 'Tinos';
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.header-left-box-dom {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header-line {
+    width: 18%;
+    height: 2px;
+}
+.header-home {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+.header-menu {
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    background: #FF7400;
+    width: 24%;
+    height: 50px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+@media (max-width: 500px) {
+    .header-line {
+        display: block;
+    
+    }
 }

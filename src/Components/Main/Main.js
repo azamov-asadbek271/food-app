@@ -11,11 +11,73 @@ import cheff1 from "../IMG/cheff1.png"
 import cheff2 from "../IMG/cheff2.png"
 import cheff3 from "../IMG/cheff3.png"
 import footbg from "../IMG/footer bg.png"
+import mask from "../IMG/maskfood.png"
 
 function Main() {
   return (
     <div className="main">
       {/* Asadbek aka */}
+      <div className="top-part">
+        <div className="top-part-boxes">
+          <div className="top-part-boxes-box">
+            <img className="top-part-maks" src={mask} alt="" />
+            <h1 className="top-part-atmosfera">
+              Магическая <span> Атмосфера</span>
+            </h1>
+            <p className="top-part-parag">
+              В нашем заведении царит магическая атмосфера наполненная вкусными
+              ароматами
+            </p>
+          </div>
+          <div className="top-part-boxes-box-two">
+            <img className="top-part-maks" src={mask} alt="" />
+            <h1 className="top-part-atmosfera">
+              Лучшее качество <span>Еды</span>
+            </h1>
+            <p className="top-part-parag">
+              Качество нашей <br /> Еды - отменное!
+            </p>
+          </div>
+          <div className="top-part-boxes-box">
+            <img className="top-part-maks" src={mask} alt="" />
+            <h1 className="top-part-atmosfera">
+              Недорогая <span>Еда</span>
+            </h1>
+            <p className="top-part-parag">
+              Стоимость нашей Еды зависит только от ее количества. Качество{" "}
+              <br />
+              всегда на высоте!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="middle-part">
+        <div className="middle-part-left">
+          <h1>Наша История</h1>
+          <p>
+            Как и у любого другого самобытного места, у нас есть своя, особая
+            история. Идея ресторана пришла основателям неожиданно. Во время
+            прогулки по лесу создатель нашего ресторана застрял в сотнях
+            километров от ближайшего населенного пункта. Вдали от цивилизации и
+            связи им пришлось навремя обустровать себе нехитрый быт, добывать и
+            готовить себе еду.
+          </p>
+          <div className="middle-part-boxes">
+            <div className="Напитки">
+              <span>93</span>
+              <p>Напитки</p>
+            </div>
+            <div className="Еда">
+              <span>206</span>
+              <p>Еда</p>
+            </div>
+            <div className="Закуски">
+              <span>71</span>
+              <p>Закуски</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Behruzbek */}
       <div className="blyud">
